@@ -1,0 +1,71 @@
+/* Import Font */
+@font-face {
+    
+    font-family: fira-code;
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/FiraCode-Regular.ttf');
+}
+h1 {
+    margin-bottom: 1rem;
+}
+.minib {
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    margin-top:  -4rem;
+    width: 25.1rem;
+
+    height: 2rem;
+}
+.b {
+
+    border: 1px solid white;
+    color: white;
+    width: 20rem;
+    height: 35rem;
+    border-radius: 12px;
+    margin-bottom: -500px;
+    transition: ease-in-out 90ms;
+}
+a {
+    margin-top: 2rem;
+}
+.image {
+
+    border: 2px solid green;
+    height: 5rem;
+    border-radius: 3rem;
+}
+.interligate {
+    border: 1px solid grey;
+    height: 1rem;
+    margin-bottom: -1rem;
+}
+button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+    height: 3rem;
+    width: 10rem;
+    margin: 1rem;
+    transition: ease-in-out 80ms;
+    cursor: pointer;
+}button:hover{ color: green; border-color: green; transition: ease-in-out 120ms; }
+body {
+
+    margin: 4rem auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin-bottom: 6rem;
+
+    background-color: black;
+    font-family: fira-code;
+    color: white;
+
+}
